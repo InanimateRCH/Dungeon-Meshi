@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dungeon Meshi</title>
+
+  <!-- Подключение иконок для разных устройств -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/312132-Photoroom.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Подключение CSS файла стилей -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Подключение Bootstrap CSS для стилей -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Навигация -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Логотип -->
+      <a class="navbar-brand" href="#">
+        <img src="img/png-transparent-circle-circle-circle-education-science-spiral-stairs-Photoroom.png" alt="l" width="60">
+      </a>
+
+      <!-- Кнопка для мобильного меню -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Навигационное меню -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" onclick="loadPage('home.html')">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="loadPage('places.html')">Favorite places</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Контейнер для подгрузки контента -->
+  <div id="content">
+    <div class="container text-center my-5">
+      <div class="home-back">
+        <div class="row">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <div class="portal">
+              <img src="img/23112312312.jpg" alt="девочка зимой" class="rounded-img"/>
+            </div>
+            <h1 class="fw-light">Perfect couple</h1>
+            <p>
+              Laios: Laios is the leader of the adventuring party in "Dungeon Meshi." He's a determined and brave warrior with a strong sense of duty. His primary goal is to rescue his sister who has been taken by a dragon deep within a dungeon. Laios has a knack for cooking, which proves to be a vital skill as he uses his knowledge to create meals from the monsters they encounter. His determination and culinary skills are central to the group's survival and success in their quest.
+            </p>
+            <p>
+              Falin: Falin is the elf who joins Laios's party. As a highly skilled magician, she provides invaluable support with her magical abilities. Falin has a calm and reserved demeanor, but she’s fiercely loyal to her friends. Her expertise in magic complements Laios's combat skills, making them a formidable team. Her knowledge of ancient lore and magic adds depth to the party's journey through the dungeon.
+            </p>
+            <h3>Pair Dynamics:</h3>
+            <p>
+              Laios and Falin make a dynamic pair in the series. While Laios is grounded and practical with his focus on rescuing his sister and cooking, Falin adds a layer of mystical expertise and calm strategy to their adventures. Their contrasting skills and personalities create a balanced and effective partnership, with Laios’s hands-on approach and Falin’s magical prowess coming together to tackle the challenges of the dungeon. Their interactions blend action, humor, and heartfelt moments, making them a compelling duo in the story.
+            </p>
+            <a href="https://mangalib.me/dungeon-meshi?section=info" target="_blank" class="btn btn-secondary">Manga</a>
+            <a href="https://jut.su/dungeon-meshi/" target="_blank" class="btn btn-primary">Anime</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Футер -->
+  <div id="footer">Все права защищены (с) 2024</div>
+
+  <!-- Подключение JS файлов -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
