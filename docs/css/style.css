@@ -87,3 +87,7 @@ body {
 .nav-link {
   cursor: pointer; 
 }
+
+.home-back .row h3 {
+  color: #fff; 
+}
